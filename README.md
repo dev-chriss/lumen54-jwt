@@ -2,8 +2,6 @@
 
 This is a demo for lumen 5.4 REST api. 
 
-This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
-
 For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuejs2-hybrid/)
 
 ## FEATURE
@@ -12,7 +10,7 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 
 - Login, Logout, Register
 - CRUD example
-- JWT-Auth - tymondesigns/jwt-auth
+- JWT-Auth - tymo/jwt-auth
 - Dingo API - dingo/api
 - Laravel-CORS barryvdh/laravel-cors
 
