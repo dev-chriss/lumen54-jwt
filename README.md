@@ -1,8 +1,10 @@
 # lumen54-api-demo
 
-This is a demo for lumen5.4. if you are using lumen to write REST api it will help you.
+This is a demo for lumen 5.4 REST api. 
 
 This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
+
+For frontend example, im using Vuejs 2.2
 
 ## FEATURE
 
@@ -11,6 +13,7 @@ This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
 - JWT authentication
 - Login, Logout, Register
 - CRUD example
+- artisan serve built in
 
 ```
 
@@ -31,6 +34,7 @@ $ vim .env
 
 $ php artisan migrate
 $ php artisan db:seed
+$ php artisan serve 
 
 ```
 ## REST API DESIGN
