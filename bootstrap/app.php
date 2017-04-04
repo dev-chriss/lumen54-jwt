@@ -102,7 +102,7 @@ $app->singleton(Illuminate\Auth\AuthManager::class, function ($app) {
     return $app->make('auth');
 });
 
-// transformer serializer
+// Set the transformer's serializer
 //$app['Dingo\Api\Transformer\Factory']->setAdapter(function ($app) {
     //$fractal = new League\Fractal\Manager;
     //$serializer = new League\Fractal\Serializer\ArraySerializer();
