@@ -29,13 +29,18 @@ just a demo for rest api design
 
 ```
     demo： user, post
-    get    /api/posts              	 post index
+    
+    post   /api/register              	 register a new user
+    post   /api/login              	 login
+    put    /api/authorizations           refresh token
+    delete /api/logout            	 logout
+    
     post   /api/posts              	 create a post
     get    /api/posts/5            	 post detail
     put    /api/posts/5            	 replace a post
     patch  /api/posts/5            	 update part of a post
     delete /api/posts/5            	 delete a post
-    get    /api/users/4/posts        post list of a user
-    get    /api/user/posts           post list of current user
+    get    /api/users/4/posts            post list of a user
+    get    /api/user/posts               post list of current user
 ```
 
