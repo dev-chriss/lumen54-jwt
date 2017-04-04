@@ -7,7 +7,7 @@ This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
 
 ## USAGE
 
-
+```
 $ composer install
 $ cp .env.example .env
 $ vim .env
@@ -22,7 +22,7 @@ $ vim .env
 $ php artisan migrate
 $ php artisan db:seed
 
-
+```
 ## REST API DESIGN
 
 just a demo for rest api design
