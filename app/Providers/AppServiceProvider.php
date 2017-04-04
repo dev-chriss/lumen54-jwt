@@ -11,7 +11,6 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        // 注册mail
         $this->app->singleton('mailer', function ($app) {
             $app->configure('services');
             $app->configure('mail');
