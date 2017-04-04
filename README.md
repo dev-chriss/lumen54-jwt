@@ -10,7 +10,7 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 
 - Login, Logout, Register
 - CRUD example
-- JWT-Auth - tymo/jwt-auth
+- JWT-Auth - tymon/jwt-auth
 - Dingo API - dingo/api
 - Laravel-CORS barryvdh/laravel-cors
 
