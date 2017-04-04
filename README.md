@@ -1,4 +1,4 @@
-# lumen-api-demo
+# lumen54-api-demo
 
 This is a demo for lumen5.4. if you are using lumen to write REST api it will help you.
 
