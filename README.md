@@ -2,7 +2,7 @@
 
 This is a demo for lumen 5.4 REST api. 
 
-For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuejs2-hybrid/)
+For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuejs2-hybrid/) hybrid
 
 ## FEATURE
 
@@ -28,7 +28,7 @@ $ vim .env
 	    JWT_SECRET
             php artisan jwt:secret
 	    APP_KEY
-            key:generate is abandoned in lumen, so do it yourself
+            key:generate is abandoned in lumen, please use 
             md5(uniqid())，str_random(32) etc.，maybe use jwt:secret and copy it
 
 $ php artisan migrate
