@@ -1,10 +1,10 @@
-# lumen54-api-demo
+# lumen54-rest-api-demo
 
 This is a demo for lumen 5.4 REST api. 
 
 This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
 
-For frontend example, im using Vuejs 2.2
+For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuejs2-hybrid/)
 
 ## FEATURE
 
