@@ -8,9 +8,9 @@ This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
 
 ```
 
-Using JWT authentication
-Login, Register
-CRUD example
+- JWT authentication
+- Login, Register
+- CRUD example
 
 ```
 
