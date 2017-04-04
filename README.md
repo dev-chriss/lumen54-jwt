@@ -10,10 +10,11 @@ For frontend example, im using [Vuejs 2.2](https://github.com/chrissetyawan/vuej
 
 ```
 
-- JWT authentication
 - Login, Logout, Register
 - CRUD example
-- artisan serve built in
+- JWT-Auth - tymondesigns/jwt-auth
+- Dingo API - dingo/api
+- Laravel-CORS barryvdh/laravel-cors
 
 ```
 
@@ -34,7 +35,7 @@ $ vim .env
 
 $ php artisan migrate
 $ php artisan db:seed
-$ php artisan serve 
+
 
 ```
 ## REST API DESIGN
