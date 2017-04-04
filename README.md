@@ -4,6 +4,16 @@ This is a demo for lumen5.4. if you are using lumen to write REST api it will he
 
 This demo use `dingo/api`  `tymon/jwt-auth` and write some easy APIs and PHPUNIT
 
+## FEATURE
+
+```
+
+Using JWT authentication
+Login, Register
+CRUD example
+
+```
+
 
 ## USAGE
 
