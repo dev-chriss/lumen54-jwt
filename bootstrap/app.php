@@ -23,7 +23,6 @@ $app = new Laravel\Lumen\Application(
     realpath(__DIR__.'/../')
 );
 
-// phpunit 报错？？？
 $app->withFacades();
 
 $app->withEloquent();
@@ -66,7 +65,6 @@ $app->singleton(
 
 $app->middleware([
     'cors' => palanik\lumen\Middleware\LumenCors::class,
-    // 根据 accept-language 设置语言
     'locale' => App\Http\Middleware\ChangeLocale::class,
 ]);
 
@@ -104,7 +102,7 @@ $app->singleton(Illuminate\Auth\AuthManager::class, function ($app) {
     return $app->make('auth');
 });
 
-// 设置 transformer 的 serializer
+// transformer serializer
 //$app['Dingo\Api\Transformer\Factory']->setAdapter(function ($app) {
     //$fractal = new League\Fractal\Manager;
     //$serializer = new League\Fractal\Serializer\ArraySerializer();
